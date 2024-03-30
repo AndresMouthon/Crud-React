@@ -53,8 +53,6 @@ export function useAuth() {
         icon: "error",
         title: "¡Error!",
         text: "Datos incorrectos...",
-        showConfirmButton: false,
-        timer: 1000,
       });
       if (error.response) {
       } else if (error.request) {
@@ -85,8 +83,6 @@ export function useAuth() {
         icon: "error",
         title: "¡Error!",
         text: "Datos incorrectos...",
-        showConfirmButton: false,
-        timer: 1000,
       });
       if (error.response) {
       } else if (error.request) {
