@@ -1,0 +1,31 @@
+.modalHeader {
+    background: #222432;
+}
+.modalHeader span{
+    color: white;
+}
+.modalBody {
+    background: #292C3E;
+}
+.modalFooter{
+    background: #222432;
+}
+.modalFooter button{
+    background: #008000;
+}
+.modalFooter button:hover{
+    background: white !important;
+    color: #008000;
+    border: 1px solid #008000;
+}
+.modalFooter2{
+    background: #222432;
+}
+.modalFooter2 button{
+    background: #BDB76B;
+}
+.modalFooter2 button:hover{
+    background: white !important;
+    color: #BDB76B;
+    border: 1px solid #BDB76B;
+}

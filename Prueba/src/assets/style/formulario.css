@@ -1,0 +1,86 @@
+.contenedora {
+  margin: 5% 22%;
+  background: white;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.contenedora .contenedor-contenido {
+  width: 55%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #00152a;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.contenedora .contenedor-contenido fieldset {
+  width: 70%;
+  border: none;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1.5rem 0 2rem 0;
+}
+.contenedora .contenedor-contenido fieldset .container-input {
+  height: 50px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #00152a;
+}
+.contenedora .contenedor-contenido fieldset .container-input input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: 15px;
+  padding-inline-start: 1rem;
+}
+.contenedora .contenedor-contenido fieldset .container-input input:focus {
+  outline: none;
+}
+.contenedora .contenedor-contenido button {
+  width: 40%;
+  height: 35px;
+  border-radius: 50px;
+  border: none;
+  background-color: #00152a;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.contenedora .contenedor-contenido button:hover {
+  transition: 0.3s;
+  background: #fff;
+  color: #00152a;
+  border: 1px solid #00152a;
+}
+.contenedora .imagen {
+  width: 45%;
+  height: 100%;
+}
+.contenedora .imagen img {
+  width: 100%;
+}
+
+.contenedora .contenedor-contenido .enlace {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #00152a;
+}
+.contenedora .contenedor-contenido .enlace:hover {
+    margin-top: 1rem;
+    text-decoration: underline;
+    color: black;
+  }
